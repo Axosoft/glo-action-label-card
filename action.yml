@@ -1,10 +1,21 @@
-name: 'Node 12 Template Action'
-description: 'Get started with Node actions'
-author: 'GitHub'
-inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+name: 'Glo Add Label To Card'
+description: 'GitHub action to add a label to a card'
+branding:
+  color: 'blue'
+  icon: 'tag'
+inputs:
+  authToken:
+    description: Auth token for user
+    required: true
+  boardID:
+    description: ID of board
+    required: true
+  cardID:
+    description: ID of card
+    required: true
+  label:
+    description: Name of label to add to card
+    required: true
 runs:
   using: 'node12'
   main: 'lib/main.js'
