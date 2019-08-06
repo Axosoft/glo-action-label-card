@@ -1,6 +1,6 @@
 # GitHub action to add a label to a Glo card
 
-Use this action to add a label to a card on a Glo board.
+Use this action to add a label to a card on a [GitKraken Glo](https://www.gitkraken.com/glo) board.
 The action requires the board ID, card ID, and label name as inputs.
 
 ## Requirements
