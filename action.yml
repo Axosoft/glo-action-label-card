@@ -1,5 +1,5 @@
-name: 'Glo Add Label To Card'
-description: 'GitHub action to add a label to a card'
+name: 'Glo Add Label To Cards'
+description: 'GitHub action to add a label to Glo Boards cards'
 branding:
   color: 'blue'
   icon: 'tag'
@@ -7,14 +7,11 @@ inputs:
   authToken:
     description: Auth token for user
     required: true
-  boardID:
-    description: ID of board
-    required: true
-  cardID:
-    description: ID of card
+  cards:
+    description: Array of { cardId, boardId } objects
     required: true
   label:
-    description: Name of label to add to card
+    description: Name of label to add to cards
     required: true
 runs:
   using: 'node12'

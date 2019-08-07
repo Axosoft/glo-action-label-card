@@ -2,7 +2,7 @@
   "name": "glo-action-label-card",
   "version": "1.0.0",
   "private": true,
-  "description": "GitHub action to add a label to a card",
+  "description": "GitHub action to add a label to Glo Boards cards",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
