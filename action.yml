@@ -1,4 +1,4 @@
-name: 'Glo Add Label To Cards'
+name: 'Glo Boards Add Label To Cards'
 description: 'GitHub action to add a label to Glo Boards cards'
 branding:
   color: 'blue'
