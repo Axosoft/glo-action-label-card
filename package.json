@@ -21,7 +21,7 @@
   "author": "Axosoft",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.2",
+    "@actions/core": "^1.9.1",
     "@axosoft/glo-sdk": "^1.0.7",
     "semver": "^6.1.1"
   },
